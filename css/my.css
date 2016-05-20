@@ -1,0 +1,61 @@
+
+img{width: 1920px;
+}
+.dropdown-menu{
+    background-color:#222 ;
+}
+body{background-color:#222; }
+.panel-footer{
+
+    color: green;
+    background-color: black;
+    border-color: black;
+}
+p{
+
+    color: white;
+}
+.bron{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/5.jpg);
+    background-color: red;
+    background-position: center;
+    text-align: center;
+    color: black;
+}
+label{
+    color: green;
+}
+#navlist{position:relative;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0; margin-left: 40%}
+#navlist li, #navlist a{height:44px;display:block;}
+
+#home{left:0;width:60px;}
+#home{background:url(../img/icon.png) -2px -100px;}
+#home a:hover{background: url(../img/icon.png) -1px -1px;}
+
+#prev{left:150px;width:43px;}
+#prev{background:url(../img/icon.png) -80px 0;}
+#prev a:hover{background: url(../img/icon.png) -47px -45px;}
+
+#next{left:340px;width:43px;}
+#next{background:url(../img/icon.png) -91px 0;}
+#next a:hover{background: url(../img/icon.png) -91px -45px;}
+ul {
+    color: white;
+}
+.my{
+    width: 400px;
+}
+.butt{
+    height: 35px;
+}
+.tui{
+    padding-left: 200px;
+}
+.map{
+    float: right;
+    margin-right: 400px;
+}
+

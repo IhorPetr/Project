@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>СТО</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class=" navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">АвтоДОМ</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги СТО<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="diagnostic.html">Компьютерная диагностика автомобиля</a></li>
+                        <li><a href="#">Ремонт рулевых реек</a></li>
+                        <li><a href="#">Ремонт АКПП\МКПП</a></li>
+                        <li><a href="#">Развал схождение 3D</a></li>
+                        <li><a href="#">Ремонт автокондиционеров</a></li>
+                        <li><a href="#">Покраска кузова</a></li>
+                        <li><a href="#">Рихтовка кузова</a></li>
+                        <li><a href="#">Полировка кузова</a></li>
+                        <li><a href="#">Диагностика авто</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Эвакуатор</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Шиномонтаж</a></li>
+                    </ul>
+                </li>
+                <li><a href="Index.html">О компании</a></li>
+                <li><a href="news.html">Контакты</a></li>
+            </ul>
+
+            <button type="button" class="btn btn-primary butt" data-toggle="button">Регистрация</button>
+            <button class="btn btn-primary navbar-form butt" data-toggle="modal" data-target="#myModal">
+                Вход
+            </button>
+
+            <!-- Modal -->
+            <form class="navbar-form navbar-right " role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control " placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-primary ">Поиск</button>
+            </form>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel" align="center">Вход</h4>
+            </div>
+            <div class="modal-body">
+                <form role="form" class="tui">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Введите email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Пароль</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Введите пароль">
+                    </div>
+                    <label for="exampleInputPassword1"><a href="#">Забыли пароль?</a></label>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" >Вход</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="diagnostic.html"><img src="img/1.jpg" alt="#" class="img-responsive"></a>
+            <div class="carousel-caption">
+                <h3>Компьютерная диагностика автомобиля</h3>
+            </div>
+        </div>
+        <div class="item ">
+            <a href="#"><img src="img/2.jpg" alt="#" class="img-responsive"></a>
+            <div class="carousel-caption">
+                <h3>Диагностика авто</h3>
+            </div>
+        </div>
+        <div class="item ">
+            <a href="#"><img src="img/3.jpg" alt="#" class="img-responsive"></a>
+            <div class="carousel-caption">
+                <h3>Полировка кузова</h3>
+            </div>
+        </div>
+        <div class="item ">
+            <a href="#"><img src="img/4.jpg" alt="#" class="img-responsive"></a>
+            <div class="carousel-caption">
+                <h3>Эвакуатор</h3>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h4 align="center">Компьютерная диагностика автомобиля</h4>
+    </div></div>
+<p>
+    Для полноценной работы мы располагаем диагностическим оборудованием для автомобилей Toyota, Lexus, Mercedes, Range Rover, Honda, Audi, Volkswagen, Skoda, Seat, Porsche, Jaguar и другие.<br>
+    Для каждого современного владельца автомашины крайне важно то обстоятельство, при котором автомобиль будет исправен не только сейчас, но и завтра, и послезавтра, чтобы машина не подкачала в случае, например, длительного маршрута и постоянной эксплуатации.<br>
+    <img class="my" src="img/Diag.jpg"><br>
+    С помощью современных методик диагностики автомобиля работники нашего сервисного центра помогут Вам достоверно  узнать о состоянии машины.  Компьютерная диагностика авто предоставит Вам наиболее исчерпывающую и полную информацию о состоянии двигателя, кузова, тормозных механизмов, характера подвески, коробки передач. С помощью новейшей и точной аппаратуры наши специалисты обследуют всю электронику и выявят даже самую малую погрешность в работе всех приборов.<br>
+    <img class="my" src="img/Diag2.jpg"><br>
+    Диагностика автомобиля проходит по известной схеме – это может быть исследование нового автомобиля или имеющего уже некоторый износ. Клиент должен рассказать мастеру о причинах, характере, целях диагностики и кроме развернутых результатов исследования Вы сможете получить не только качественную экспертную оценку, но и полезный совет от нашего профессионала.<br>
+    Компьютерную диагностику авто пользователи могут заказать на нашем сайте. Нужно отметить, что займет это совсем немного времени благодаря нашим мастерам и высокотехнологичной аппаратуре.<br>
+
+    Специализированные диагностические приборы:<br>
+
+
+
+    <b>Диагностика приборами Tayota / Lexus LX</b><br></p>
+<ul>
+    Возможности прибора:<br>
+    <li>чтение и стирание кодов неисправностей всех систем автомобиля;</li>
+    <li>считывание потоков данных всех систем автомобиля;</li>
+    <li>отображение текущих параметров системы;</li>
+    <li>проверка исполнительных механизмов;</li>
+    <li>кодирование блоков управления;</li>
+    <li>адаптация;</li>
+    <li>сброс сервисных интервала.</li>
+</ul>
+<p>  <b>   Время диагностики от 20 до 30 мин.<br>
+   Компьютерная диагностика прибором Mercedes</b><br></p>
+<ul>
+    Возможности прибора:<br>
+    <li>диагностику всех систем управления, выявление и удаление ошибок в ЭБУ;</li>
+    <li>тест и управление исполнительными механизмами;</li>
+    <li>сброс к начальным настройкам;</li>
+    <li>адаптация;</li>
+    <li>кодирование всех типов и видов двигателей, систем шасси, кузова, панели приборов;</li>
+    <li>стирание кодов неисправностей (очистка памяти);</li>
+    <li>сброс сервисных интервала.</li>
+</ul>
+<p> <b>    Время диагностики от 40 до 60 мин.<br>
+    Диагностика прибором Land Rover, Range Rover, Jaguar</b><br></p>
+<ul>
+    Возможности прибора:<br>
+    <li>автоматический или ручной режим связи с автомобилем;</li>
+    <li>считывание кодов неисправностей из памяти тестируемого блока управления и их расшифровка;</li>
+    <li>стирание кодов неисправностей (очистка памяти);</li>
+    <li>вывод текущих параметров системы в цифровой форме;</li>
+    <li>программирование блоков управления;</li>
+    <li>различные сервисные процедуры (сброс сервисных индикаторов, прокачка систем ABS и др.);</li>
+    <li>сброс сервисных интервала.</li>
+</ul>
+<p> <b>    Время диагностики от 40 до 60 мин.<br>
+   Компьютерная диагностика прибором VAG</b><br>
+
+    Автомобили: Skoda, Volkswagen, Audi, Bentley, Seat, Porsche.<br></p>
+<ul>
+    Возможности прибора:<br>
+    <li>диагностику всех систем управления, выявление и удаление ошибок в ЭБУ;</li>
+    <li>тест и управление исполнительными механизмами;</li>
+    <li>сброс к начальным настройкам;</li>
+    <li>адаптация;</li>
+    <li>сброс сервисных интервала.</li>
+</ul>
+<p> <b>    Время диагностики 30 мин.<br>
+
+
+ Диагностика проводиться приборами KTS, Launch</b><br>
+
+    Автомобили: Alfa Romeo, BMW, Chery, Chevrolet, Citroen, Daewoo, Fiat, Ford, Honda, Hyundai, Infiniti, Jeep, Kia, Mazda, Mini, Mitsubishi, Nissan, Opel, Peugeot, Renault, Seat, Subaru, Volvo.<br>
+  </p>
+<uL>
+    Возможности прибора:<br>
+    <li>чтение и стирание кодов неисправностей всех систем автомобиля;</li>
+    <li>отображение текущих параметров системы;</li>
+    <li>адаптация.</li>
+</uL>
+    <p><b>Время диагностики от 20 до 30 мин.</b></p>
+
+<div class="bron">
+    <h2><i>ОСТАВИТЬ ЗАЯВКУ МОЖНО ТУТ</i></h2><br>
+    <h3>Наши менеджеры свяжутся с Вами в самое ближайшее время</h3><br>
+    <form role="form">
+        <div align="center" class="form-group">
+
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Введите Ваше имя" required>
+        </div>
+        <div align="center" class="form-group">
+
+            <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Введите Ваш телефон" required>
+        </div>
+        <div align="center">
+            <select class="form-control" required>
+                <option>--Выберите раздел--</option>
+                <option>Компьютерная диагностика автомобиля</option>
+                <option>Ремонт рулевых реек</option>
+                <option>Ремонт АКПП\МКПП</option>
+                <option>Развал схождение 3D</option>
+                <option>Ремонт автокондиционеров</option>
+                <option>Покраска кузова</option>
+                <option>Рихтовка кузова</option>
+                <option>Полировка кузова</option>
+                <option>Диагностика авто</option>
+            </select><br><textarea class="form-control" rows="3" placeholder="Введите ваше сообщение"></textarea></div>
+        <br><button type="submit" id="loading-example-btn" data-loading-text="Loading..." class="btn btn-primary">
+        Забронировать время
+    </button>
+    </form>
+</div>
+<footer class="panel-footer">
+    <h4 align="center">Петрухно Игорь ИК-31</h4>
+</footer>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
