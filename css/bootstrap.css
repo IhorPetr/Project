@@ -1458,7 +1458,7 @@ dd {
     width: 160px;
     overflow: hidden;
     clear: left;
-    text-align: right;
+    text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
@@ -4592,9 +4592,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  position: relative;
   background-color: #222;
-  border-color: #080808;
+  border-color: #222;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4960,11 +4959,12 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
+  margin-top: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4982,7 +4982,7 @@ a.badge:focus {
 .container-fluid .jumbotron {
   padding-right: 15px;
   padding-left: 15px;
-  border-radius: 6px;
+  border-radius: 3px;
 }
 .jumbotron .container {
   max-width: 100%;
@@ -5954,8 +5954,9 @@ button.close {
 }
 .modal-footer {
   padding: 15px;
-  text-align: right;
+  text-align: center;
   border-top: 1px solid #e5e5e5;
+
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;

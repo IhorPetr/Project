@@ -1,5 +1,5 @@
 
-img{width: 1920px;
+img{
 }
 .dropdown-menu{
     background-color:#222 ;
@@ -50,6 +50,7 @@ ul {
 }
 .butt{
     height: 35px;
+    margin-left: 5px;
 }
 .tui{
     padding-left: 200px;
@@ -58,4 +59,18 @@ ul {
     float: right;
     margin-right: 400px;
 }
-
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    padding-left: 600px;
+}
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+}
+.tag{
+    height: 40px;
+    width: 40px;
+}
+.Contr{
+    background-color: white;
+}
